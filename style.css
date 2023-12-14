@@ -1,0 +1,109 @@
+ html, body {
+	background: #efefe9;
+  height: 100%;
+  width: 100%;
+}
+main {
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.name {
+  font-family: Georgia, serif;
+  text-transform: uppercase;
+  color: blue;
+}
+
+.topnav {
+  top: 0;
+	left: 0;
+  overflow: hidden;
+  width: 100%;
+	margin-left: 5rem;
+}
+.topnav a:hover {
+  color: blue;
+  text-decoration: push-button;
+  touch-action: pan-down;
+}
+.topnav a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  float: left;
+  text-align: center;
+  padding: 10px 15px;
+  font-weight: bolder;
+}
+.topnav .active {
+	color: blue;
+	font-size: 18px;
+}
+#contact {
+  color: black;
+  text-decoration: underline;
+}
+
+#year {
+  text-align: right;
+  color: red;
+}
+
+h3 {
+  background: #efebeb;
+  font-family: Georgia, serif;
+}
+
+.description {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 40px;
+	height: 50vh;
+	margin: 0 auto;
+	margin-bottom: 4rem;
+}
+
+.pics {
+	height: 450px;
+	width: 300px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.intro {
+	margin: auto;
+}
+
+.intro p {
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+.more-info {
+	display: flex;
+	flex-direction: column;
+	padding: 40px;
+	gap: 10px;
+}
+
+.top {
+	display: flex;
+	gap: 10px;
+}
+
+.bottom {
+	align-self: center;
+	width: 30%;
+}
+
+.card {
+	background: #efebeb;
+	padding: 5px;
+	box-shadow: 3px 5px #88888833;
+	border-radius: 10px;
+}

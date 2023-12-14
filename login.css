@@ -1,0 +1,76 @@
+html, body {
+	background: #efefe9;
+  height: 100%;
+  width: 100%;
+}
+main {
+  margin: auto;
+  width: 50%;
+}
+.topnav {
+  margin-bottom: 20px;
+  top: 0;
+	left: 0;
+  overflow: hidden;
+  width: 100%;
+	margin-left: 5rem;
+}
+.topnav a:hover {
+  color: blue;
+  text-decoration: push-button;
+  touch-action: pan-down;
+}
+.topnav a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  float: left;
+  text-align: center;
+  padding: 10px 15px;
+  font-weight: bolder;
+}
+.topnav .active {
+	color: blue;
+	font-size: 18px;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	margin: 4rem auto 0;
+	justify-content: center;
+	align-items: center;
+}
+
+h1 {
+  margin-top: 50px;
+	color: blue;
+}
+
+.login {
+  display: flex;
+	flex-direction: column;
+	width: 40%;
+}
+
+input {
+	margin-bottom: 10px;
+  padding: 12px
+}
+
+#details {
+  margin-bottom: 10px;
+}
+p {
+  text-align: center;
+  font-size: 12px;
+}
+.button {
+  background: green;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+justify-self: auto;
+  margin-top: 10px;
+	width: 40%
+}

@@ -1,0 +1,74 @@
+html, body {
+  height: 100%;
+  width: 100%;
+	background: #efefe9;
+}
+
+.topnav {
+  margin-bottom: 20px;
+  top: 0;
+	left: 0;
+  overflow: hidden;
+  width: 100%;
+	margin-left: 5rem;
+}
+.topnav a:hover {
+  color: blue;
+  text-decoration: push-button;
+  touch-action: pan-down;
+}
+.topnav a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  float: left;
+  text-align: center;
+  padding: 10px 15px;
+  font-weight: bolder;
+}
+.topnav .active {
+	color: blue;
+	font-size: 18px;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	margin: 4rem auto 0;
+	padding: 40px 60px;
+	justify-content: center;
+	align-items: center;
+}
+
+main h2 {
+	color: blue;
+	font-size: 30px;
+}
+
+main p {
+	color: blue;
+	font-size: 20px;
+}
+
+.data {
+  display: flex;
+	flex-direction: column;
+	margin: 40px 80px;
+	width: 35%;
+}
+
+ input, .gender {
+    margin-bottom: 10px;
+    padding: 12px
+  }
+
+button {
+	background: black;
+  color: white;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0, 18);
+	border-radius: 5px;
+	padding: 10px;
+  margin-top: 12px;
+  width: 100%;
+	align-self: center;
+}

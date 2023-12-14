@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Register Page</title>
+  <link href="register.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="topnav">
+    <a href="./index.html">About Me</a>
+    <a href="./contact-me.html">Contact Me</a>
+    <a class="active" href="#">Register</a>
+    <a href="./login.html">Login</a>
+  </div>
+  <main>
+  <h2>Register</h2>
+  <p>To book an appointment, kindly fill the information below</p>
+  <form class='data' action="" method="post">
+      <input type="text" name="first-name" id="first-name" placeholder="First Name" required />
+      <input type="text" name="last-name" id="last-name" placeholder="Last Name" required />
+      <input type="email" name="email" id="email" placeholder="Enter your E-mail Address" required />
+      <input type="number" name="phone-number" id="phone-number" placeholder="Phone number" required />
+        <select class="gender" aria-required>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+        <input type="text" name="country" id="country" placeholder="Country" required />
+        <input type="text" name="state" id="state" placeholder="State/province" required />
+       <input type="text" name="username" id="username" placeholder="Create Username" required />
+      <input type="password" name="pwd" id="pwd" placeholder="Password" required />
+      <input type="password" name="cpwd" id="cpwd" placeholder="Confirm Password" required />
+      <button type="submit">Submit</button>
+    </main>
+</body>
+
+</html>
